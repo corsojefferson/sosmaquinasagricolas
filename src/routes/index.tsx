@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   useEffect(() => {
-    window.location.replace("/landing-agricola/");
+    window.location.replace("/landing-agricola/index.html");
   }, []);
 
   return (
