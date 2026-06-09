@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "SOS Máquinas Agrícolas" },
+      { name: "description", content: "Build simple, custom landing pages with HTML and CSS." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "SOS Máquinas Agrícolas" },
+      { property: "og:description", content: "Build simple, custom landing pages with HTML and CSS." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "SOS Máquinas Agrícolas" },
+      { name: "twitter:description", content: "Build simple, custom landing pages with HTML and CSS." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/151417ee-01c9-4a6d-ad41-4329ff52a71d/id-preview-9bb43d72--a9c9fb5b-b493-465a-b99e-a5f649bf5145.lovable.app-1781023332680.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/151417ee-01c9-4a6d-ad41-4329ff52a71d/id-preview-9bb43d72--a9c9fb5b-b493-465a-b99e-a5f649bf5145.lovable.app-1781023332680.png" },
     ],
     links: [
       {
